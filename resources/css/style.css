@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    align-content: center;
+}
+
+.jumboCopy {
+   display: grid;
+   justify-content: center;
+   border: 1px;
+   border-radius: 5px;
+   
+}
+
+
+.btn {
+    display: inline;
+    align-items: center;
+    justify-self: center;
+}
+
+
+.workImages {
+    height: 100px;
+    width: 200px;
+}
+
+.footer-form {
+    border: solid 1px gainsboro;
+    border-radius: 10px;
+}
+
+.rounded-start {
+    border-radius: 50%;
+    max-height: 200px;
+    justify-self: end;
+}
+
+.cardEnd {
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    display: flex;
+    justify-items: start;
+}
+
+.aboutMe {
+    display: flex;
+
+}
+
+footer {
+    display: contents;
+    align-items: center;
+}
+
