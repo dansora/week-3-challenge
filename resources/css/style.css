@@ -1,5 +1,6 @@
 .navbar {
     display: flex;
+
     align-content: center;
 }
 
@@ -7,6 +8,7 @@
 .jumboCopy {
    display: grid;
    justify-content: center;
+   align-items: center;
    border: 1px;
    border-radius: 5px;
    
@@ -15,16 +17,22 @@
 /* Container holding the image and the text */
 .container {
     position: relative;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     text-align: center;
     color: white;
+    
   }
 
   /* Centered text */
 .centered {
     position: absolute;
-    top: 50%;
-    left: 75%;
+    text-align: center;
+    top: 70%;
+    left: 80%;
     transform: translate(-50%, -50%);
+    color: aliceblue;
   }
 
 
@@ -32,6 +40,10 @@
     display: inline;
     align-items: center;
     justify-self: center;
+}
+
+body, html {
+    height: 100%;
 }
 
 
@@ -67,7 +79,17 @@
 }
 
 footer {
-    display: contents;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.icon-row {
+    display: inline-flex;
+    justify-items: center;
+}
+
+.icons {
+    display: flex;
     align-items: center;
 }
 
