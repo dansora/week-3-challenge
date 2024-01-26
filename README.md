@@ -5,4 +5,4 @@
 # Made all the adjustments and this is the actual achievement
 # Still lot of work to do
 # Hopefully get in time to submit
-# Thanks to all TA's  and fellow mates for help
+# Thanks to all TA's and fellow mates for help
